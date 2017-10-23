@@ -2,14 +2,18 @@
 
 This little tool is for removing light-colored background from the given video.
 
-
 VideoThresholder.py Usage:
-1. Put all videos in ./Input folder
-2. python VideoTresholder.py Input/video.mp4
-3. The result video will be in ./Output folder
+1. Create a ./Input and a ./Output folder in this directory
+2. In terminal, run:
+   $ ./runVideoThresholder
 
-TODO: add a shell script to auto run all the videos
 
+// Deprecated
+VideoThresholder.py Usage:
+1. Create a ./Input and a ./Output folder in this directory
+2. Put all videos in ./Input folder
+3. python VideoThresholder.py Input/[your_video_name].mp4
+4. The result video will be in ./Output folder
 
 // Deprecated
 VideoThresholder.ipynb Usage:

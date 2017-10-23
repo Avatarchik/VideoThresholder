@@ -1,0 +1,4 @@
+for file in "Input"/*;
+do
+   python VideoThresholder.py Input/${file##*/}
+done
